@@ -1,0 +1,51 @@
+.big-text {
+  font-size: 1.2em;
+}
+
+.small-text {
+  font-size: 0.82em;
+}
+
+.left-column-75 {
+  width: 75%;
+  float: left;
+}
+
+.right-column-25 {
+  width: 20%;
+  float: right;
+}
+
+.left-column-67 {
+  width: 67%;
+  float: left;
+}
+
+.right-column-33 {
+  width: 30%;
+  float: right;
+}
+
+.right-column-67 {
+  width: 67%;
+  float: right;
+}
+
+.left-column-33 {
+  width: 30%;
+  float: left;
+}
+
+.col3-pad {
+  width: 30%;
+  float: left;
+  padding-left: 16px;
+}
+
+.col3-pad > h4 {
+  margin-bottom: 0.5em;
+}
+
+.white-bkgnd {
+  background-color: white;
+}
