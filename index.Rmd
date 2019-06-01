@@ -3,6 +3,7 @@ title: "Developing in-house software"
 subtitle: "Why I did it & you should too"
 author: "Camille Seaberry"
 institute: "DataHaven"
+date: '<br><br>`r icon::ii("link")` Follow along: ct-data-haven.github.io/datadev'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -116,7 +117,7 @@ install_github("CT-Data-Haven/cwi")
 
 ---
 
-# Shifting my thinking: toward sustainable & reproduceable work
+# Shifting my thinking: toward sustainable & reproducible work
 
 .pull-left[
   .big-text[
@@ -128,7 +129,7 @@ install_github("CT-Data-Haven/cwi")
 
 ---
 
-# Shifting my thinking: toward sustainable & reproduceable work
+# Shifting my thinking: toward sustainable & reproducible work
 
 .pull-left[
 ```{r move_map, fig.height=4, fig.width=5, echo=FALSE}
@@ -150,7 +151,7 @@ ggplot() +
 
 # What's a library?
 
-![arthur](img/arthur-library.jpg)
+![:scale 40%](img/arthur-library.jpg)
 
 --
 
@@ -199,7 +200,7 @@ leave_the_house <- function(date = today(), biking = TRUE, working = TRUE) {
 # Functions! If only...
 
 ```{r echo=TRUE, comment=""}
-leave_the_house(biking = FALSE, working = TRUE)
+leave_the_house(biking = TRUE, working = FALSE)
 ```
 
 
@@ -424,7 +425,7 @@ income_dots +
 
 # Reusable datasets & references
 
-How many times can I generate, save, and forget about the same lookup tables and shapefiles?
+.big-text[How many times can I generate, save, and forget about the same lookup tables and shapefiles?]
 
 ![references](img/too_many_references.png)
 
@@ -537,7 +538,7 @@ background-size: cover
 
 `r icon::ii("erlenmeyer-flask")` **Our side projects blog:** [ct-data-haven.github.io](http://ct-data-haven.github.io/)
 
-`r icon::ii("social-github")` **`cwi` package:** [github.com/CT-Data-Haven/cwi](https://github.com/CT-Data-Haven/cwi)
+`r icon::ii("social-github")` **DataHaven on GitHub:** [github.com/CT-Data-Haven](https://github.com/CT-Data-Haven)
 
-`r icon::ii("code")` **These very slides!** []
+`r icon::ii("code")` **These very slides!** [ct-data-haven.github.io/datadev](https://ct-data-haven.github.io/datadev)
 ]
