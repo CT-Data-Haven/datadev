@@ -154,7 +154,6 @@ ggplot() +
 
 ![:scale 40%](img/arthur-library.jpg)
 
---
 
 ```{r echo=TRUE, eval=FALSE}
 library(tidyverse)    # sets up LOTS of functions, how I start my mornings
@@ -275,7 +274,6 @@ income_map
 ]
 
 
---
 
 .right-column-33[
 ```{r map_brks1, fig.width=2.5, fig.height=1.5}
@@ -288,7 +286,6 @@ wrap_elements(income_leg1)
 ```
 ]
 
---
 .right-column-33[
 ```{r map_brks2, fig.width=2.5, fig.height=1.5}
 income_leg2 <- cowplot::get_legend(income_map +
@@ -313,7 +310,6 @@ pov_map
 ```
 ]
 
---
 
 .right-column-33[
 ```{r map_brks3, fig.width=2.5, fig.height=1.5}
@@ -326,7 +322,6 @@ wrap_elements(pov_leg1)
 ```
 ]
 
---
 
 .right-column-33[
 ```{r map_brks4, fig.width=2.5, fig.height=1.5}
