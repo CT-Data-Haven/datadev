@@ -3,7 +3,7 @@ title: "Developing in-house software"
 subtitle: "Why I did it & you should too"
 author: "Camille Seaberry"
 institute: "DataHaven"
-date: '<br><br>`r icon::ii("link")` Follow along: ct-data-haven.github.io/datadev'
+date: '<br><br>`r icon::ii("link")` Follow along: https://ct-data-haven.github.io/datadev<br><br>`r icon::ii("code")` Get the code: https://github.com/CT-Data-Haven/datadev'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -16,6 +16,7 @@ output:
       titleSlideClass: ["left"]
       beforeInit: "macros.js"
       ratio: "16:9"
+      scroll: false
 ---
 
 ```{r setup, include=FALSE}
@@ -520,7 +521,7 @@ test_that("handles years not in API", {
 .pull-right[
 #### Docs website with `pkgdown`
 
-![docs](img/cwi_docs.png)
+<iframe src="https://ct-data-haven.github.io/cwi/articles/basic-workflow.html" style="border:0px #ffffff solid;" name="cwidocs" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="800px" allowfullscreen></iframe>
 ]
 
 ---

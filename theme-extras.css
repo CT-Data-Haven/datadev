@@ -49,3 +49,7 @@
 .white-bkgnd {
   background-color: white;
 }
+
+.title-slide a {
+  color: white;
+}
